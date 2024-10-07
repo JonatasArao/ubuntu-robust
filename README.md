@@ -9,5 +9,5 @@ docker build -t ubuntu-robust .
 
 # Run the Docker container with a shared volume
 ```bash
-docker run -it --name ubuntu-robust -e USER=$(whoami) -v /home/$(whoami):/home/neo ubuntu-robust
+docker run -it --name ubuntu-robust ubuntu-robust bash
 ```
