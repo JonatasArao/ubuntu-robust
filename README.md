@@ -7,7 +7,7 @@ Open the terminal and navigate to the directory where the `Dockerfile` is alread
 docker build -t ubuntu-robust .
 ```
 
-# Run Container
+## Run Container
 ```bash
 docker run -it --name ubuntu-robust ubuntu-robust bash
 ```
