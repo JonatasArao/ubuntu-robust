@@ -10,7 +10,12 @@
   -w /workspace \
   marciodanielll/ubuntu-42:1.1 zsh
 ```
-## 🖥️ Attach Container via Shell
+## 🚀 Build Image No Cached
+```bash
+
+docker build --platform linux/amd64 --no-cache -t marciodanielll/ubuntu-42:1.1 .
+```
+
 ```bash
 docker attach $(basename "$(pwd)")
 ```
