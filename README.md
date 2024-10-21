@@ -8,7 +8,7 @@
   -v "$(find ~ -maxdepth 1 -type f -name ".gitconfig"):/root/.gitconfig" \
   -v "$(pwd)":/workspace \
   -w /workspace \
-  marciodanielll/ubuntu-42:1.0 zsh
+  marciodanielll/ubuntu-42:1.1 zsh
 ```
 ## 🖥️ Attach Container via Shell
 ```bash
