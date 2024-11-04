@@ -1,7 +1,7 @@
 {
 	"name": "Ubuntu Robust",
 	"build": {
-		"dockerfile": "../Dockerfile"
+		"dockerfile": "Dockerfile"
 	},
 	"customizations": {
 		"vscode": {
